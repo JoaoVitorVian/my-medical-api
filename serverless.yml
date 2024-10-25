@@ -1,0 +1,27 @@
+service: medical-api
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1
+  stage: dev
+
+plugins:
+  - serverless-offline
+
+functions:
+  getAgendas:
+    handler: src/agenda/controller/AgendaController.getAgendas
+    events:
+      - http:
+          path: agendas
+          method: get
+
+  createAgendamento:
+    handler: src/agendamento/controller/AgendamentoController.createAgendamento
+    events:
+      - http:
+          path: agendamento
+          method: post
+
+

@@ -24,3 +24,7 @@ Thumbs.db
 
 # Saída de build TypeScript
 out/
+
+# Ignorar diretórios temporários
+temp/
+undefined/

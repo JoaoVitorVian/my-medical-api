@@ -1,6 +1,6 @@
 # Medical API
 
-API para gestão de agendas e agendamentos de consultas médicas utilizando Serverless Framework, AWS Lambda e Node.js.
+API utilizando Serverless Framework, AWS Lambda e Node.js.
 
 ## Pré-requisitos
 
@@ -9,6 +9,9 @@ API para gestão de agendas e agendamentos de consultas médicas utilizando Serv
 
 ## Como rodar o projeto
 
-1. Instale as dependências:
+Siga as etapas abaixo para configurar e executar a API localmente:
+
+1. **Clone o repositório**:
    ```bash
-   npm install
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio

@@ -1,6 +1,6 @@
 # Medical API
 
-API para gestão de agendas e agendamentos de consultas médicas utilizando Serverless Framework, AWS Lambda e Node.js.
+API utilizando Serverless Framework, AWS Lambda e Node.js.
 
 ## Pré-requisitos
 
